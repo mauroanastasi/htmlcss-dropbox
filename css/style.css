@@ -1,9 +1,12 @@
+/* rules */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
+/* header */
 header{
     background-color: #5866e4;
 }
@@ -22,3 +25,40 @@ header{
     width: 50%;
     height: 50px;
 }
+
+/* jumbo */
+
+.jumbotron{
+        padding-top: 40px;
+        background-color: #e458d8;
+        height: 500px;
+}
+
+.j-container{
+    max-width: 1000px;
+    margin: auto;
+    background-color: #fff;
+    display: flex
+}
+
+.j-col-full{
+    width: 65%;
+    height: 100px;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.j-col-left{
+    width: 35%;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.j-col-right{
+    width: 65%;
+    height: 300px;
+    border: 1px solid black;
+}
+
+

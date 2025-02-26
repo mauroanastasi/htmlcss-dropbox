@@ -150,8 +150,6 @@ header{
 
 .funzioni{
     display: flex;
-    width: 100%;
-    height: 100px;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
@@ -159,7 +157,7 @@ header{
 
 .col30d{
     width: 31%;
-    height: 200px;
+    height: 250px;
 }
 
 
@@ -168,5 +166,23 @@ header{
     margin-bottom: 50px;
     width: 100%;
     height: 150px;
+}
 
+.footertop{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+
+}
+
+.footerline{
+    max-width: 150px;
+    margin: 0 auto;
+    background-color: hsl(349, 72%, 62%);
+}
+
+.footerdown{
+    width: 100%;
+    height: 70px;
+    background-color: black;
 }

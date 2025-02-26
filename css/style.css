@@ -18,7 +18,7 @@ header{
 .h-col-right{
     width: 50%;
     height: 50px;
-    
+
 }
 
 .h-col-left{
@@ -89,7 +89,7 @@ header{
 }
 
 .top-m-col-central{
-    width: 30%; 
+    width: 30%;
     height: 800px;
 }
 
@@ -112,7 +112,7 @@ header{
 .bg-colorazz{
     background-color: aquamarine;
     border: 1px solid black;
-    
+
 }
 
 .m-container{
@@ -162,11 +162,11 @@ header{
     height: 200px;
 }
 
-/* QUESTO + IL PROBLEMA */
+
 .fondomain{
     margin-top: 50px;
     margin-bottom: 50px;
     width: 100%;
     height: 150px;
-    display: block;
+
 }

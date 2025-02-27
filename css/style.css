@@ -141,6 +141,7 @@ h2{
     display: flex;
     /* justify-content: center; */
     gap: 10px;
+    
 }
 
 .titoloplans{
@@ -164,23 +165,35 @@ h2{
     font-size: 14px
 }
 
+.bottomblumain{
+    background-color: #2525fa;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    padding: 5px 8px 8px 8px;
+    margin: 20px auto 15px auto;
+}
+
 .main-container hr{
     background-color: black;
 }
 
 .top-m-col-left{
     width: 33%;
-    height: 800px;
+    min-height: 900px;
+    border: 1px solid #85a7c1;
 }
 
 .top-m-col-central{
     width: 33%;
-    height: 800px;
+    min-height: 850px;
+    border: 1px solid #85a7c1;
 }
 
 .top-m-col-right{
     width: 33%;
-    height: 800px;
+    min-height: 850px;
+    border: 1px solid #85a7c1;
 }
 
 .contact{
@@ -188,17 +201,39 @@ h2{
     height: 150px;
 }
 
+.corto{
+    width: 30px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    background-color: #85a7c1;
+    
+}
+
+.main-container ul{
+    list-style-type: none;
+    
+}
+.main-container ul li{
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.main-container ul li::before{
+    content: "\2714";
+    color: #2525fa;
+
+}
+
 /* utility */
-.bg-color{
-    background-color: red;
+/* .bg-color{
+    background-color: #d2cece;
     border: 1px dashed black;
 }
 
 .bg-colorazz{
     background-color: aquamarine;
     border: 1px solid black;
-
-}
+} */
 
 .text-align{
     text-align: left;
@@ -206,6 +241,10 @@ h2{
 
 .my15{
     margin: 15px 0;
+}
+
+.myb20{
+    margin-bottom: 20px;
 }
 
 /* central main */

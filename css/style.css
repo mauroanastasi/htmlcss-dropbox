@@ -196,10 +196,6 @@ h2{
     border: 1px solid #85a7c1;
 }
 
-.contact{
-    width: 100%;
-    height: 150px;
-}
 
 .corto{
     width: 30px;
@@ -225,31 +221,44 @@ h2{
 }
 
 /* utility */
-/* .bg-color{
+/* togli i primi due questi */
+.bg-color{
     background-color: #d2cece;
     border: 1px dashed black;
 }
-
+    
 .bg-colorazz{
-    background-color: aquamarine;
-    border: 1px solid black;
-} */
-
+        background-color: aquamarine;
+        border: 1px solid black;
+}
+        
 .text-align{
-    text-align: left;
+            text-align: left;
 }
-
+        
 .my15{
-    margin: 15px 0;
+            margin: 15px 0;
 }
-
+        
 .myb20{
-    margin-bottom: 20px;
+            margin-bottom: 20px;
 }
+        
+.grey{
+            background-color: #85a7c1; 
+}
+        
 
-/* central main */
+.mytd{
+            margin-top: 30px;
+            margin-bottom: 50px;
+        }
+        
 
-.content-central{
+        
+        /* central main */
+        
+        .content-central{
     width: 100%;
     height: 400px;
     display: flex;
@@ -287,12 +296,46 @@ h2{
     height: 250px;
 }
 
+.contact{
+    width: 100%;
+    height: 150px;
+    border: 1px solid #85a7c1;
+    display: flex;
+}
+
+.displayblock{
+    display: block;
+    border: 1px solid #85a7c1;
+    margin-top: 30px;
+}
+
+
+.colleftent{
+    width: 65%;
+    text-align: left;
+    line-height: 30px;
+    
+}
+
+.colrightent{
+    width: 35%;
+}
 
 .fondomain{
     margin-top: 50px;
     margin-bottom: 50px;
     width: 100%;
     height: 150px;
+}
+
+.bottomblumaindown{
+            background-color: #2525fa;
+            text-align: center;
+            display: inline-block;
+            color: #fff;
+            padding: 5px 20px;
+            margin-top: 15px;
+            margin-right: 15px;
 }
 
 .footertop{

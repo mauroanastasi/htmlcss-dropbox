@@ -15,6 +15,9 @@ body{font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Robot
 /* header */
 header{
     background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .header-container{
@@ -82,6 +85,7 @@ h2{
     font-weight: 700;
     font-size: 70px;
     text-align: left;
+    margin-top: 100px;
 }
 
 .j-col-left{
@@ -407,7 +411,7 @@ h2{
 
 .f-col{
     color: #fff;
-    margin-left: 60px;
+    margin-left: 60px;    
     width: 15%;
     line-height: 30px;
 }

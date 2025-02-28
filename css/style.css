@@ -371,9 +371,9 @@ h2{
 }
 
 .footerline{
-    max-width: 150px;
-    margin: 0 auto;
-    background-color: hsl(349, 72%, 62%);
+    width: 100px;;
+    background-color: hwb(345 89% 9%);
+    margin-left: 250px;
 }
 
 .footerdown{
@@ -421,4 +421,8 @@ h2{
     display: flex;
     margin-left: 80px;
     
+}
+
+footer{
+    background-color: black;
 }
